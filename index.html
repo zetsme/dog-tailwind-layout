@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css"
+      integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="font-sans box-border">
+    <!-- header -->
+    <div class="bg-indigo-700 p-4 flex flex-wrap justify-between items-center">
+      <div class="flex items-center">
+        <!-- left side -->
+        <img
+          width="50"
+          src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-256.png"
+          alt=""
+          class="mr-2"
+        />
+        <a
+          class="inline-block p-3 text-indigo-300 mr-2 hover:text-indigo-100 duration-200"
+          href="#"
+          >Home</a
+        >
+        <a
+          class="inline-block p-3 text-indigo-300 hover:text-indigo-100 duration-200"
+          href="#"
+          >About</a
+        >
+      </div>
+
+      <!-- right side -->
+      <div>
+        <a
+          href="#"
+          class="inline-block p-2 text-indigo-200 mr-2 hover:text-indigo-100 duration-200"
+          >Login</a
+        ><a
+          href="#"
+          class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 rounded hover:text-yellow-800 hover:bg-yellow-300 duration-200"
+          >Sign Up</a
+        >
+      </div>
+    </div>
+
+    <!-- hero -->
+    <div
+      class="md:flex justify-between py-20 px-3 md:px-10 bg-indigo-600 text-indigo-100"
+    >
+      <!-- left -->
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">
+          Welcome to Doggo City
+        </h2>
+        <p class="mb-6">There is never a sad day in Doggo City</p>
+        <a
+          class="inline-block py-3 px-6 text-lg bg-gray-400 hover:bg-gray-300 duration-200 text-gray-800 rounded mr-2"
+          href="#"
+          >Learn More</a
+        >
+        <a
+          class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:bg-orange-300 duration-200 rounded"
+          href="#"
+          >Get Started</a
+        >
+      </div>
+
+      <!-- right -->
+      <div class="md:w-1/2">
+        <img
+          src="https://images.unsplash.com/photo-1568564321589-3e581d074f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt="Doggo"
+          class="w-full rounded shadow-2xl"
+        />
+      </div>
+    </div>
+
+    <!-- features -->
+    <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 text-center">
+      <div class="mr-2 text-center flex flex-col">
+        <img
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400 flex-grow"
+          src="https://images.unsplash.com/photo-1508609540374-67d1601ba520?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <p class="mb-4 md:mb-0">Cuddles!</p>
+      </div>
+      <div class="mr-2 text-center flex flex-col md:transform md:translate-y-8">
+        <img
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400 flex-grow object-cover"
+          src="https://images.unsplash.com/photo-1576872350020-64fac5a42447?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <p class="mb-4 md:mb-0">Smiles!</p>
+      </div>
+      <div class="mr-2 text-center flex flex-col">
+        <img
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400 flex-grow"
+          src="https://images.unsplash.com/photo-1578251122719-faf0727a76de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <p class="mb-4 md:mb-0">Games!</p>
+      </div>
+      <div class="mr-2 text-center flex flex-col md:transform md:translate-y-8">
+        <img
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400 flex-grow"
+          src="https://images.unsplash.com/photo-1542049943447-072b93eb20af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <p class="mb-4 md:mb-0">Swims!</p>
+      </div>
+    </div>
+
+    <!-- footer + newsletter -->
+    <div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+      <!-- left -->
+      <div class="md:w-1/2">
+        <h3 class="text-lg mb-2">Join the NewsLetter</h3>
+        <form class="flex">
+          <input
+            type="email"
+            class="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-100"
+          />
+          <button
+            class="bg-red-300 text-red-800 rounded-r px-4 hover:bg-red-400 duration-200"
+          >
+            Join
+          </button>
+        </form>
+      </div>
+      <!-- right -->
+      <div class="flex items-center">
+        Copyright &copy; Doggos 2020 - Infinity
+      </div>
+    </div>
+  </body>
+</html>
